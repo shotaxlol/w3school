@@ -1,0 +1,315 @@
+.title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 25px;
+  left: -12px;
+}
+.subtitle {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 110px;
+  left: 280px;
+  font-weight: 400;
+  margin: 10px;
+}
+.topnav {
+  position: relative;
+  top:  40px;
+  background-color: #5f5f5f;
+  font-size: 17px;
+  color: #f1f1f1;
+  display: block;
+  height: 54px;
+  letter-spacing: 1px;
+  line-height: 35.5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 180%;
+  letter-spacing: 7.5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.AD{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 80%;
+  height: 80px;
+  background-color: #b4b4b4;
+  position: relative;
+  top: 60px;
+  left: 280px;
+ text-align: center;
+ color: #fff;
+}
+.active {
+  background-color: #4CAF50;
+  text-align: center;
+  height: 54px;
+width: auto;
+border: none;
+outline: 0;
+}
+.subtitle{
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  height: 54px;
+  line-height: 54px;
+  margin-block-end: 10px;
+  margin-block-start: 10px;
+  margin-bottom: 10px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  width: 920.984px;
+}
+.button{
+  position: relative;
+  width: 130px;
+  top: 130px;
+  left:280px;
+  color: #f1f1f1;
+  background-color: #4CAF50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom-color: #4CAF50;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: #4CAF50;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #4CAF50;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #4CAF50;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-size: 17px;
+  height: 43px;
+  line-height: 25.5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  text-align: center;
+  text-decoration-color: #fff;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  white-space: nowrap;
+}
+.sidemenu{
+  position: relative;
+  top: -332px;
+  background-color: rgb(241, 241, 241);
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-size: 20px;
+  height: 680px;
+  line-height: 50px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-top: 0px;
+  width: 260px;
+  float: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.document {
+  position: relative;
+  top: 240px;
+  left: 150px;
+  font-weight: 400;
+  margin: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.paragraph {
+font-size: 28px;
+position: relative;
+top: 310px;
+left: 280px;
+
+}
+body {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.menutitle{
+  font-size: 30px;
+}
+#menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: inline;
+}
+
+#menu li {
+  width: 7%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#menu li a {
+  width: auto;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 0;
+  text-decoration: none;
+  display: block;
+  background: #5f5f5f;
+}
+
+#menu li a:hover {
+  background: #0e0d0d;
+transform: all 0.1s ease;
+}
+.example{
+  font-size: 17px;
+  position: relative;
+  top: -380px;
+  left: -180px;
+  width: 115%;
+}
+.popupModal1 > input { /* ラジオボックス非表示 */
+    display: none;
+}
+.popupModal1 > input:nth-child(1) + label { 
+    cursor: pointer;
+}
+.modalPopup2 { /* 初期設定 ポップアップ非表示 */
+    display: none;
+}
+
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 {/* ラジオ１ チェックでポップアップ表示 */
+    display: block;
+    z-index: 998;
+    position: fixed;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    left: 50%;
+    top: 50%;
+    margin-top: 30px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+@media (min-width: 768px) {/* PCのときはページの真ん中の600x600領域 */
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2{
+         width: 600px;
+         height: 600px;
+         padding: 30px;
+
+    }
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label {
+     left: 50% !important;
+     top: 50% !important;
+     margin-left: 270px !important;
+     margin-top: -310px !important;
+}
+}
+
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div {/* */
+    overflow:auto;
+    -webkit-overflow-scrolling:touch;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div > iframe {
+    width: 100%;
+      height:100%;
+      border:none;
+      display:block;
+}
+
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label + .modalPopup2 > div > img {/* ポップアップの中の要素 */
+max-width: 100%;
+}
+.popupModal1 > input:nth-child(1) + label ~ label {
+    display: none;/* ラジオ１ 以外のラベルを初期は非表示 */
+
+}
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.70);
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 997;
+    text-indent: -999999px;
+    overflow: hidden;
+}
+.popupModal1 > input:nth-child(1):checked + label + input:nth-child(3) + label + input:nth-child(5) + label {
+    background: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    z-index: 999;
+    width: 44pt;
+    height: 44pt;
+    font-size: 40px;
+    border-radius: 50%;
+    line-height: 44pt;
+    text-align: center;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.popupModal1 > input:nth-child(1) + label + input:nth-child(3):checked + label + input:nth-child(5) + label + .modalPopup2,
+.popupModal1 > input:nth-child(1) + label + input:nth-child(3) + label + input:nth-child(5):checked + label + .modalPopup2 { /* ラジオ２と３ どっちかチェックでポップアップ非表示 */
+    display: none;
+}
+
+
+.modalPopup2 {
+    animation: fadeIn 1s ease 0s 1 normal;
+    -webkit-animation: fadeIn 1s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.popupModal1 .modalTitle {
+     padding-bottom: .5em;
+     margin: .5em 0;
+     border-bottom:
+     1px solid #ccc;
+     font-weight: bold;
+}
+.popupModal1 .modalMain {
+     color:#222;
+     text-align: left;
+     font-size: 14px;
+     line-height: 1.8em;
+}
